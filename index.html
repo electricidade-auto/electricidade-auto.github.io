@@ -1,40 +1,1776 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-  <script src="https://quge5.com/88/tag.min.js" data-zone="296760" async data-cfasync="false"></script>
-  <meta name="monetag" content="2d150c959d9d3d47ad389092d00f3318">
+<script>(function(s){s.dataset.zone='12047596',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+<script src="https://5gvci.com/act/files/tag.min.js?z=12047605" data-cfasync="false" async></script>
+<script src="https://quge5.com/88/tag.min.js" data-zone="296760" async data-cfasync="false"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Electricidade Auto - Dicas e Manutenção</title>
+<meta name="theme-color" content="#0b1120">
+
+<title>VoltMaster Pro — Academia de Electricidade Automóvel</title>
+
 <style>
-body{font-family:Arial,sans-serif;margin:0;padding:0;background:#f5f5f5;color:#333}
-header{background:#111;color:#fff;padding:20px;text-align:center}
-main{max-width:900px;margin:20px auto;background:#fff;padding:20px;border-radius:8px}
-h1,h2{color:#d00}
-footer{text-align:center;padding:20px;background:#111;color:#fff;margin-top:20px}
+:root {
+  --bg: #0b1120;
+  --card: #151f33;
+  --card2: #1c2940;
+  --text: #edf4ff;
+  --muted: #a8b8d0;
+  --blue: #3994ff;
+  --green: #30d6a0;
+  --orange: #ffb547;
+  --red: #ff626f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+}
+
+button, input, select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.muted {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+header {
+  background: #101a2d;
+  padding: 17px;
+  border-bottom: 1px solid #293955;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 23px;
+}
+
+header p {
+  color: var(--muted);
+  margin-bottom: 0;
+}
+
+nav {
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  overflow-x: auto;
+  background: #0e1729;
+}
+
+nav button {
+  flex-shrink: 0;
+  background: var(--card2);
+  color: white;
+  border: 1px solid #344764;
+  padding: 11px 14px;
+  border-radius: 9px;
+}
+
+nav button.active,
+.primary {
+  background: var(--blue);
+  color: white;
+  border-color: var(--blue);
+}
+
+main {
+  max-width: 1050px;
+  margin: auto;
+  padding: 16px;
+}
+
+.page {
+  display: block;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid #293955;
+  border-radius: 14px;
+  padding: 17px;
+  margin-bottom: 15px;
+}
+
+.card h2,
+.card h3 {
+  margin-top: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 14px;
+}
+
+.stat {
+  color: var(--green);
+  font-size: 29px;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin: 13px 0 6px;
+  color: var(--muted);
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #40516e;
+  border-radius: 8px;
+  background: #0b1425;
+  color: white;
+}
+
+input:focus,
+select:focus {
+  outline: 2px solid var(--blue);
+}
+
+.action {
+  background: var(--green);
+  color: #061b17;
+  border: 0;
+  border-radius: 8px;
+  padding: 12px 15px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.secondary {
+  background: #283b58;
+  color: white;
+}
+
+.danger {
+  background: #682a36;
+  color: white;
+}
+
+.full {
+  width: 100%;
+}
+
+.option {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #40516e;
+  border-radius: 8px;
+  background: #101a2d;
+  color: white;
+}
+
+.option:disabled {
+  cursor: default;
+  opacity: 0.9;
+}
+
+.feedback {
+  padding: 13px;
+  border-radius: 8px;
+  margin-top: 12px;
+  line-height: 1.6;
+}
+
+.good {
+  background: #123c34;
+  border: 1px solid var(--green);
+}
+
+.bad {
+  background: #48252e;
+  border: 1px solid var(--red);
+}
+
+.notice {
+  background: #45351a;
+  border: 1px solid var(--orange);
+  padding: 13px;
+  border-radius: 9px;
+  margin-top: 14px;
+  line-height: 1.6;
+}
+
+.diagram {
+  overflow-x: auto;
+  background: #091323;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 12px;
+}
+
+.diagram svg {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+}
+
+.auth-wrap {
+  max-width: 430px;
+  margin: 35px auto;
+  padding: 15px;
+}
+
+.auth-card {
+  background: var(--card);
+  border: 1px solid #344764;
+  border-radius: 16px;
+  padding: 23px;
+}
+
+.auth-logo {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 8px;
+}
+
+.auth-card h1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.auth-card .muted {
+  text-align: center;
+}
+
+.auth-switch {
+  color: #8ec4ff;
+  text-decoration: underline;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  padding: 8px 0;
+}
+
+.auth-message {
+  margin-top: 12px;
+  line-height: 1.5;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 12px 16px;
+  background: #111d30;
+  border-bottom: 1px solid #293955;
+}
+
+.user-label {
+  color: var(--green);
+  font-weight: bold;
+  overflow-wrap: anywhere;
+}
+
+.small {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.progress-track {
+  height: 10px;
+  background: #28364c;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 12px;
+}
+
+.progress-fill {
+  width: 0%;
+  height: 100%;
+  background: var(--green);
+  transition: width .2s;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  color: var(--muted);
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #34435c;
+  margin: 18px 0;
+}
 </style>
 </head>
+
 <body>
-<header>
-<h1>Electricidade Auto</h1>
-<p>Dicas, esquemas e manutenção elétrica automotiva</p>
-</header>
-<main>
-<h2>Bem-vindo</h2>
-<p>Site dedicado a compartilhar conhecimento sobre sistema elétrico de automóveis, bateria, alternador, motor de arranque, iluminação e módulos eletrônicos.</p>
-<h2>Conteúdo</h2>
-<ul>
-<li>Como testar bateria e alternador</li>
-<li>Esquemas elétricos básicos</li>
-<li>Fusíveis e relés</li>
-<li>Dicas de diagnóstico</li>
-</ul>
-<p>Todo conteúdo é gratuito e educativo, criado para ajudar mecânicos e entusiastas em Moçambique e no mundo.</p>
-<h2>Sobre nós</h2>
-<p>Somos de Maputo, Moçambique. Compartilhamos experiência prática do dia a dia na oficina.</p>
-</main>
-<footer>
-<p>© 2026 electricidade-auto.github.io - Todos direitos reservados</p>
-</footer>
+
+<!-- ================= AUTENTICAÇÃO ================= -->
+
+<section id="authScreen" class="auth-wrap">
+
+  <div class="auth-card">
+
+    <div class="auth-logo">⚡</div>
+
+    <h1>VoltMaster Pro</h1>
+
+    <p class="muted">
+      Academia de Electricidade Automóvel
+    </p>
+
+    <!-- LOGIN -->
+
+    <form id="loginForm">
+
+      <h2>Entrar na conta</h2>
+
+      <label for="loginUsername">Username</label>
+
+      <input
+        id="loginUsername"
+        type="text"
+        autocomplete="username"
+        maxlength="30"
+        required
+        placeholder="O teu username"
+      >
+
+      <label for="loginPassword">Senha</label>
+
+      <input
+        id="loginPassword"
+        type="password"
+        autocomplete="current-password"
+        required
+        placeholder="A tua senha"
+      >
+
+      <button class="action full" type="submit">
+        Entrar
+      </button>
+
+      <p class="muted">
+        Ainda não tens conta?
+      </p>
+
+      <button
+        type="button"
+        class="auth-switch"
+        onclick="showAuth('signup')"
+      >
+        Criar uma conta
+      </button>
+
+    </form>
+
+    <!-- REGISTO -->
+
+    <form id="signupForm" class="hidden">
+
+      <h2>Criar conta</h2>
+
+      <label for="signupUsername">Username</label>
+
+      <input
+        id="signupUsername"
+        type="text"
+        autocomplete="username"
+        maxlength="30"
+        required
+        minlength="3"
+        placeholder="Escolhe um username"
+      >
+
+      <label for="signupPassword">Senha</label>
+
+      <input
+        id="signupPassword"
+        type="password"
+        autocomplete="new-password"
+        required
+        minlength="4"
+        placeholder="Cria uma senha"
+      >
+
+      <label for="signupConfirm">Confirmar senha</label>
+
+      <input
+        id="signupConfirm"
+        type="password"
+        autocomplete="new-password"
+        required
+        minlength="4"
+        placeholder="Repete a senha"
+      >
+
+      <button class="action full" type="submit">
+        Criar conta
+      </button>
+
+      <p class="muted">
+        Já tens uma conta?
+      </p>
+
+      <button
+        type="button"
+        class="auth-switch"
+        onclick="showAuth('login')"
+      >
+        Voltar ao login
+      </button>
+
+    </form>
+
+    <div id="authMessage" class="auth-message"></div>
+
+    <hr>
+
+    <p class="small">
+      Os dados desta versão são guardados neste navegador.
+      Não utilizes senhas importantes ou que uses noutros serviços.
+    </p>
+
+  </div>
+
+</section>
+
+<!-- ================= APLICAÇÃO ================= -->
+
+<div id="appScreen" class="hidden">
+
+  <header>
+    <h1>⚡ VoltMaster Pro</h1>
+    <p>Academia de Electricidade Automóvel — Oficina Virtual</p>
+  </header>
+
+  <div class="topbar">
+
+    <div>
+      Utilizador:
+      <span id="currentUsername" class="user-label"></span>
+    </div>
+
+    <button class="action danger" onclick="logout()">
+      Terminar sessão
+    </button>
+
+  </div>
+
+  <nav>
+
+    <button class="active" onclick="showPage('home',this)">
+      🏠 Início
+    </button>
+
+    <button onclick="showPage('vehicles',this)">
+      🚘 Veículos
+    </button>
+
+    <button onclick="showPage('diagnosis',this)">
+      🔧 Diagnóstico
+    </button>
+
+    <button onclick="showPage('circuits',this)">
+      🔌 Circuitos
+    </button>
+
+    <button onclick="showPage('tests',this)">
+      📝 Testes
+    </button>
+
+    <button onclick="showPage('theory',this)">
+      📚 Teoria
+    </button>
+
+  </nav>
+
+  <main>
+
+    <!-- INÍCIO -->
+
+    <section id="home" class="page">
+
+      <div class="card">
+
+        <h2>Bem-vindo à Oficina Virtual!</h2>
+
+        <p class="muted">
+          Aprende electricidade automóvel através de esquemas,
+          exercícios, testes e casos práticos de diagnóstico.
+        </p>
+
+        <button
+          class="action"
+          onclick="showPage('vehicles',document.querySelectorAll('nav button')[1])"
+        >
+          Explorar veículos
+        </button>
+
+      </div>
+
+      <div class="grid">
+
+        <div class="card">
+          <p class="muted">Pontos conquistados</p>
+          <div class="stat" id="points">0</div>
+        </div>
+
+        <div class="card">
+          <p class="muted">Exercícios concluídos</p>
+          <div class="stat" id="completed">0</div>
+        </div>
+
+        <div class="card">
+          <p class="muted">Respostas correctas nos testes</p>
+          <div class="stat" id="correct">0</div>
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <h3>Progresso do aluno</h3>
+
+        <div id="progressText" class="muted">
+          Ainda não concluíste actividades.
+        </div>
+
+        <div class="progress-track">
+          <div id="progressFill" class="progress-fill"></div>
+        </div>
+
+      </div>
+
+      <div class="card">
+
+        <h3>📖 Como utilizar a plataforma</h3>
+
+        <ol class="muted">
+          <li>Escolhe uma marca e um modelo de veículo.</li>
+          <li>Consulta os esquemas eléctricos educativos.</li>
+          <li>Estuda a função dos componentes.</li>
+          <li>Resolve casos de diagnóstico e circuitos.</li>
+          <li>Faz os testes para verificar os teus conhecimentos.</li>
+        </ol>
+
+      </div>
+
+      <div class="notice">
+        O progresso é guardado automaticamente na conta local.
+        Não existe um botão para reiniciar os dados.
+      </div>
+
+    </section>
+
+    <!-- VEÍCULOS -->
+
+    <section id="vehicles" class="page hidden">
+
+      <div class="card">
+
+        <h2>🚘 Biblioteca de veículos</h2>
+
+        <p class="muted">
+          Selecciona o veículo e o sistema eléctrico que pretendes estudar.
+        </p>
+
+        <label>Marca</label>
+        <select id="brand" onchange="updateModels()"></select>
+
+        <label>Modelo</label>
+        <select id="model"></select>
+
+        <label>Ano</label>
+
+        <select id="year">
+          <option>2005</option>
+          <option>2010</option>
+          <option>2015</option>
+          <option>2020</option>
+          <option>2024</option>
+        </select>
+
+        <label>Tipo de veículo</label>
+
+        <select id="type">
+          <option>Automóvel ligeiro</option>
+          <option>Carrinha</option>
+          <option>Pick-up</option>
+          <option>SUV</option>
+          <option>Camião</option>
+          <option>Híbrido</option>
+          <option>Eléctrico</option>
+        </select>
+
+        <label>Sistema eléctrico</label>
+
+        <select id="system">
+          <option value="lighting">Iluminação</option>
+          <option value="starter">Motor de arranque</option>
+          <option value="charging">Alternador e carregamento</option>
+          <option value="horn">Buzina</option>
+          <option value="window">Vidros eléctricos</option>
+          <option value="central">Fecho centralizado</option>
+        </select>
+
+        <button class="action" onclick="drawVehicle()">
+          Consultar esquema
+        </button>
+
+      </div>
+
+      <div class="card">
+
+        <h2 id="diagramTitle">Esquema eléctrico</h2>
+
+        <p id="diagramDescription" class="muted"></p>
+
+        <div class="diagram">
+          <svg
+            id="vehicleSVG"
+            viewBox="0 0 360 330"
+            role="img"
+            aria-label="Esquema eléctrico educativo"
+          ></svg>
+        </div>
+
+        <div id="vehicleInfo"></div>
+
+        <h3>Função dos componentes</h3>
+
+        <ul class="muted">
+          <li><b>Bateria:</b> fornece energia eléctrica.</li>
+          <li><b>Fusível:</b> protege o circuito contra determinadas sobrecorrentes.</li>
+          <li><b>Relé:</b> permite comandar uma carga através de um circuito de controlo.</li>
+          <li><b>Interruptor:</b> controla uma função eléctrica.</li>
+          <li><b>Massa:</b> fornece o retorno eléctrico previsto no circuito.</li>
+          <li><b>Consumidor:</b> utiliza energia, como uma lâmpada ou motor.</li>
+        </ul>
+
+        <div class="notice">
+          Estes diagramas são educativos e genéricos. Não representam
+          necessariamente a instalação original do modelo seleccionado.
+          Para reparações reais, consulta o esquema específico do veículo,
+          ano, motor e versão.
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- DIAGNÓSTICO -->
+
+    <section id="diagnosis" class="page hidden">
+
+      <div class="card">
+
+        <h2>🔧 Casos de diagnóstico</h2>
+
+        <p class="muted">
+          Analisa a avaria e escolhe a melhor primeira verificação.
+        </p>
+
+        <div id="caseArea"></div>
+
+        <button class="action secondary" onclick="nextCase()">
+          Próximo caso
+        </button>
+
+      </div>
+
+    </section>
+
+    <!-- CIRCUITOS -->
+
+    <section id="circuits" class="page hidden">
+
+      <div class="card">
+
+        <h2>🔌 Laboratório de circuitos</h2>
+
+        <p class="muted">
+          Resolve os problemas eléctricos seleccionando a solução adequada.
+        </p>
+
+        <div id="circuitArea"></div>
+
+        <button class="action secondary" onclick="nextCircuit()">
+          Próximo circuito
+        </button>
+
+      </div>
+
+    </section>
+
+    <!-- TESTES -->
+
+    <section id="tests" class="page hidden">
+
+      <div class="card">
+
+        <h2>📝 Testes de conhecimentos</h2>
+
+        <p class="muted">
+          Responde às perguntas e aprende com as explicações.
+        </p>
+
+        <div id="quizArea"></div>
+
+        <button class="action secondary" onclick="nextQuiz()">
+          Próxima pergunta
+        </button>
+
+      </div>
+
+    </section>
+
+    <!-- TEORIA -->
+
+    <section id="theory" class="page hidden">
+
+      <div class="card">
+
+        <h2>📚 Manual de electricidade automóvel</h2>
+
+        <h3>1. Tensão eléctrica</h3>
+
+        <p class="muted">
+          A tensão eléctrica é a diferença de potencial entre dois pontos.
+          É medida em volts (V). Muitos automóveis ligeiros utilizam
+          sistemas nominais de 12 V.
+        </p>
+
+        <h3>2. Corrente eléctrica</h3>
+
+        <p class="muted">
+          A corrente representa o fluxo de carga eléctrica e é medida
+          em amperes (A).
+        </p>
+
+        <h3>3. Resistência</h3>
+
+        <p class="muted">
+          A resistência opõe-se à passagem da corrente e é medida em ohms (Ω).
+          Ligações corroídas podem provocar resistência indesejada.
+        </p>
+
+        <h3>4. Lei de Ohm</h3>
+
+        <p class="muted">
+          A relação é V = I × R. Por exemplo, uma resistência de 6 Ω
+          atravessada por uma corrente de 2 A apresenta uma queda de tensão
+          de 12 V.
+        </p>
+
+        <h3>5. Bateria</h3>
+
+        <p class="muted">
+          A bateria fornece energia para o arranque e para os sistemas
+          eléctricos. Verifica o seu estado e as ligações.
+        </p>
+
+        <h3>6. Alternador</h3>
+
+        <p class="muted">
+          Nos sistemas convencionais, o alternador produz energia eléctrica
+          com o motor em funcionamento e contribui para carregar a bateria.
+        </p>
+
+        <h3>7. Fusíveis</h3>
+
+        <p class="muted">
+          Os fusíveis protegem a cablagem contra determinadas sobrecorrentes.
+          Utiliza sempre a especificação correcta. Nunca coloques um fusível
+          de amperagem superior para impedir que volte a fundir.
+        </p>
+
+        <h3>8. Relés</h3>
+
+        <p class="muted">
+          Um relé permite que um circuito de comando controle outro circuito.
+          Confirma sempre os terminais no esquema aplicável.
+        </p>
+
+        <h3>9. Multímetro</h3>
+
+        <p class="muted">
+          Mede tensão com o multímetro configurado para tensão.
+          Mede resistência e continuidade com o circuito desenergizado
+          e isolado conforme necessário.
+        </p>
+
+        <h3>10. Diagnóstico</h3>
+
+        <p class="muted">
+          Confirma o sintoma, consulta o esquema, inspecciona as ligações
+          e efectua medições antes de substituir componentes.
+        </p>
+
+        <div class="notice">
+          Sistemas de alta tensão de veículos híbridos e eléctricos exigem
+          formação, equipamento de protecção e procedimentos específicos.
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    VoltMaster Pro — Aprender, medir e diagnosticar com segurança.
+  </footer>
+
+</div>
+
+<script>
+"use strict";
+
+/* =====================================================
+   ARMAZENAMENTO E CONTAS
+===================================================== */
+
+const USERS_KEY = "voltmaster_users_v1";
+const SESSION_KEY = "voltmaster_session_v1";
+
+let currentUser = null;
+let state = null;
+
+function readUsers() {
+  try {
+    const value = JSON.parse(localStorage.getItem(USERS_KEY) || "{}");
+
+    if (value && typeof value === "object" && !Array.isArray(value)) {
+      return value;
+    }
+  } catch (error) {
+    console.error("Erro ao ler as contas:", error);
+  }
+
+  return {};
+}
+
+function saveUsers(users) {
+  localStorage.setItem(USERS_KEY, JSON.stringify(users));
+}
+
+function normaliseUsername(username) {
+  return username.trim().toLowerCase();
+}
+
+function showAuth(mode, message = "") {
+  $("loginForm").classList.toggle("hidden", mode !== "login");
+  $("signupForm").classList.toggle("hidden", mode !== "signup");
+
+  $("authMessage").textContent = message;
+  $("authMessage").className = "auth-message";
+
+  if (message) {
+    $("authMessage").classList.add("bad");
+  }
+}
+
+function showMessage(message, success = false) {
+  $("authMessage").textContent = message;
+  $("authMessage").className =
+    "auth-message feedback " + (success ? "good" : "bad");
+}
+
+/*
+  SHA-256 quando disponível.
+  Em contextos locais sem Web Crypto, utiliza-se um hash simples
+  de compatibilidade. Nenhum destes métodos substitui autenticação
+  segura num servidor.
+*/
+async function hashPassword(password) {
+  if (window.crypto && window.crypto.subtle) {
+    const bytes = new TextEncoder().encode(password);
+    const digest = await crypto.subtle.digest("SHA-256", bytes);
+
+    return "sha256:" +
+      Array.from(new Uint8Array(digest))
+        .map(b => b.toString(16).padStart(2, "0"))
+        .join("");
+  }
+
+  let hash = 2166136261;
+
+  for (let i = 0; i < password.length; i++) {
+    hash ^= password.charCodeAt(i);
+    hash = Math.imul(hash, 16777619);
+  }
+
+  return "fallback:" + (hash >>> 0).toString(16);
+}
+
+async function verifyPassword(password, storedHash) {
+  /*
+    Compatibilidade com contas antigas que guardem senha em texto.
+    Depois de um login correcto, a senha é convertida para hash.
+  */
+  if (!storedHash) return false;
+
+  if (
+    storedHash.startsWith("sha256:") ||
+    storedHash.startsWith("fallback:")
+  ) {
+    return (await hashPassword(password)) === storedHash;
+  }
+
+  return password === storedHash;
+}
+
+function newUserState() {
+  return {
+    points: 0,
+    completedIds: [],
+    caseAnswered: [],
+    circuitAnswered: [],
+    quizAnswered: {},
+    correctAnswers: 0,
+    caseIndex: 0,
+    circuitIndex: 0,
+    quizIndex: 0
+  };
+}
+
+function normaliseState(saved) {
+  const fresh = newUserState();
+
+  if (!saved || typeof saved !== "object") {
+    return fresh;
+  }
+
+  return {
+    ...fresh,
+    ...saved,
+    points: Number(saved.points) || 0,
+    correctAnswers: Number(saved.correctAnswers) || 0,
+    completedIds: Array.isArray(saved.completedIds)
+      ? saved.completedIds : [],
+    caseAnswered: Array.isArray(saved.caseAnswered)
+      ? saved.caseAnswered : [],
+    circuitAnswered: Array.isArray(saved.circuitAnswered)
+      ? saved.circuitAnswered : [],
+    quizAnswered: saved.quizAnswered &&
+      typeof saved.quizAnswered === "object"
+      ? saved.quizAnswered : {},
+    caseIndex: Number(saved.caseIndex) || 0,
+    circuitIndex: Number(saved.circuitIndex) || 0,
+    quizIndex: Number(saved.quizIndex) || 0
+  };
+}
+
+function saveCurrentState() {
+  if (!currentUser || !state) return;
+
+  const users = readUsers();
+
+  if (!users[currentUser]) return;
+
+  users[currentUser].state = state;
+  saveUsers(users);
+}
+
+function saveSession() {
+  if (currentUser) {
+    localStorage.setItem(SESSION_KEY, currentUser);
+  }
+}
+
+function enterAccount(username) {
+  const users = readUsers();
+
+  if (!users[username]) {
+    showAuth("login", "A conta não foi encontrada.");
+    return;
+  }
+
+  currentUser = username;
+  state = normaliseState(users[username].state);
+
+  $("currentUsername").textContent = users[username].displayName || username;
+
+  saveSession();
+
+  $("authScreen").classList.add("hidden");
+  $("appScreen").classList.remove("hidden");
+
+  initialiseApplication();
+}
+
+$("signupForm").addEventListener("submit", async function(event) {
+  event.preventDefault();
+
+  const displayName = $("signupUsername").value.trim();
+  const username = normaliseUsername(displayName);
+  const password = $("signupPassword").value;
+  const confirm = $("signupConfirm").value;
+
+  if (!/^[a-zA-Z0-9_.-]{3,30}$/.test(displayName)) {
+    showMessage(
+      "O username deve ter 3 a 30 caracteres: letras, números, ponto, hífen ou sublinhado."
+    );
+    return;
+  }
+
+  if (password.length < 4) {
+    showMessage("A senha deve ter pelo menos 4 caracteres.");
+    return;
+  }
+
+  if (password !== confirm) {
+    showMessage("As senhas não coincidem.");
+    return;
+  }
+
+  const users = readUsers();
+
+  if (users[username]) {
+    showMessage("Esse username já está registado. Escolhe outro.");
+    return;
+  }
+
+  try {
+    users[username] = {
+      displayName: displayName,
+      passwordHash: await hashPassword(password),
+      state: newUserState(),
+      createdAt: new Date().toISOString()
+    };
+
+    saveUsers(users);
+
+    $("signupForm").reset();
+
+    enterAccount(username);
+
+  } catch (error) {
+    console.error(error);
+    showMessage("Não foi possível criar a conta. Verifica o armazenamento do navegador.");
+  }
+});
+
+$("loginForm").addEventListener("submit", async function(event) {
+  event.preventDefault();
+
+  const username = normaliseUsername($("loginUsername").value);
+  const password = $("loginPassword").value;
+
+  const users = readUsers();
+  const account = users[username];
+
+  if (!account) {
+    showMessage("Username ou senha incorrectos.");
+    return;
+  }
+
+  try {
+    const valid = await verifyPassword(password, account.passwordHash);
+
+    if (!valid) {
+      showMessage("Username ou senha incorrectos.");
+      return;
+    }
+
+    /*
+      Actualiza contas antigas que ainda possam ter senha em texto.
+    */
+    if (
+      !account.passwordHash.startsWith("sha256:") &&
+      !account.passwordHash.startsWith("fallback:")
+    ) {
+      account.passwordHash = await hashPassword(password);
+      saveUsers(users);
+    }
+
+    $("loginForm").reset();
+    enterAccount(username);
+
+  } catch (error) {
+    console.error(error);
+    showMessage("Ocorreu um erro ao entrar na conta.");
+  }
+});
+
+function logout() {
+  saveCurrentState();
+
+  currentUser = null;
+  state = null;
+
+  localStorage.removeItem(SESSION_KEY);
+
+  $("appScreen").classList.add("hidden");
+  $("authScreen").classList.remove("hidden");
+
+  showAuth("login", "Sessão terminada. Os teus dados continuam guardados.");
+}
+
+function restoreSession() {
+  const username = localStorage.getItem(SESSION_KEY);
+
+  if (username && readUsers()[username]) {
+    enterAccount(username);
+  } else {
+    localStorage.removeItem(SESSION_KEY);
+    showAuth("login");
+  }
+}
+
+/* =====================================================
+   NAVEGAÇÃO
+===================================================== */
+
+function $(id) {
+  return document.getElementById(id);
+}
+
+function showPage(id, button) {
+  document.querySelectorAll("#appScreen .page").forEach(page => {
+    page.classList.add("hidden");
+  });
+
+  $(id).classList.remove("hidden");
+
+  document.querySelectorAll("nav button").forEach(btn => {
+    btn.classList.remove("active");
+  });
+
+  if (button) button.classList.add("active");
+}
+
+/* =====================================================
+   VEÍCULOS E ESQUEMAS EDUCATIVOS
+===================================================== */
+
+const vehicleModels = {
+  "Toyota": ["Corolla", "Yaris", "Hilux", "Land Cruiser", "RAV4"],
+  "Nissan": ["Sunny", "Navara", "Patrol", "Qashqai", "Almera"],
+  "Honda": ["Civic", "Accord", "CR-V", "Fit", "HR-V"],
+  "Volkswagen": ["Golf", "Polo", "Passat", "Tiguan", "Amarok"],
+  "BMW": ["Série 3", "Série 5", "X3", "X5"],
+  "Mercedes-Benz": ["Classe C", "Classe E", "Classe A", "GLC"],
+  "Hyundai": ["Accent", "Elantra", "Tucson", "Santa Fe"],
+  "Mitsubishi": ["L200", "Pajero", "Lancer", "Outlander"],
+  "Mazda": ["Mazda 2", "Mazda 3", "CX-5", "BT-50"],
+  "Ford": ["Fiesta", "Focus", "Ranger", "Everest"]
+};
+
+const systems = {
+  lighting: {
+    title: "Circuito de iluminação",
+    description: "Exemplo conceptual de alimentação e comando de uma lâmpada.",
+    info: "Verifica alimentação, fusível, comando, lâmpada e massa de acordo com o esquema aplicável.",
+    labels: ["Bateria", "Fusível", "Interruptor", "Lâmpada", "Massa"]
+  },
+  starter: {
+    title: "Circuito de arranque",
+    description: "Exemplo conceptual do comando do motor de arranque.",
+    info: "O circuito de comando pode accionar um solenóide. As ligações reais variam por veículo.",
+    labels: ["Bateria", "Protecção", "Comando", "Solenóide", "Arranque"]
+  },
+  charging: {
+    title: "Sistema de carregamento",
+    description: "Exemplo conceptual do sistema de carregamento convencional.",
+    info: "A regulação e a monitorização variam conforme o veículo.",
+    labels: ["Alternador", "Regulador", "Bateria", "Indicador", "Massa"]
+  },
+  horn: {
+    title: "Circuito da buzina",
+    description: "Exemplo conceptual de buzina comandada por relé.",
+    info: "O botão pode comandar um relé ou um módulo electrónico.",
+    labels: ["Bateria", "Fusível", "Relé", "Buzina", "Massa"]
+  },
+  window: {
+    title: "Vidros eléctricos",
+    description: "Exemplo conceptual do comando de um motor de vidro.",
+    info: "Muitos veículos utilizam módulos electrónicos e protecção contra obstáculos.",
+    labels: ["Alimentação", "Protecção", "Comando", "Motor", "Massa"]
+  },
+  central: {
+    title: "Fecho centralizado",
+    description: "Exemplo conceptual do comando de fecho das portas.",
+    info: "A arquitectura pode incluir actuadores, relés e módulos electrónicos.",
+    labels: ["Bateria", "Protecção", "Comando", "Actuador", "Massa"]
+  }
+};
+
+function updateModels() {
+  const brand = $("brand").value;
+  const select = $("model");
+
+  select.innerHTML = "";
+
+  (vehicleModels[brand] || []).forEach(model => {
+    const option = document.createElement("option");
+    option.value = model;
+    option.textContent = model;
+    select.appendChild(option);
+  });
+
+  drawVehicle();
+}
+
+function drawVehicle() {
+  if (!$("brand").value) return;
+
+  const brand = $("brand").value;
+  const model = $("model").value;
+  const year = $("year").value;
+  const type = $("type").value;
+  const data = systems[$("system").value];
+
+  if (!data) return;
+
+  $("diagramTitle").textContent =
+    brand + " " + model + " — " + data.title;
+
+  $("diagramDescription").textContent =
+    "Ano: " + year + " | Tipo: " + type + ". " + data.description;
+
+  $("vehicleInfo").textContent = data.info;
+  $("vehicleInfo").className = "feedback good";
+
+  const svg = $("vehicleSVG");
+  const ys = [25, 85, 145, 205, 265];
+
+  let drawing = "";
+
+  data.labels.forEach((label, i) => {
+    drawing += `
+      <rect x="18" y="${ys[i]}" width="145" height="34"
+        rx="6" fill="#172941" stroke="#54a7ff" stroke-width="2"></rect>
+
+      <text x="90" y="${ys[i] + 21}" fill="#ffffff"
+        font-size="12" text-anchor="middle">${label}</text>
+    `;
+
+    if (i < data.labels.length - 1) {
+      drawing += `
+        <path d="M163 ${ys[i] + 17} H190 V${ys[i + 1] + 17} H211"
+          stroke="#42d6a4" stroke-width="3" fill="none"></path>
+
+        <path d="M204 ${ys[i + 1] + 10} L211 ${ys[i + 1] + 17}
+          L204 ${ys[i + 1] + 24}" stroke="#42d6a4"
+          stroke-width="3" fill="none"></path>
+      `;
+    }
+  });
+
+  svg.innerHTML = drawing;
+}
+
+/* =====================================================
+   CASOS DE DIAGNÓSTICO
+===================================================== */
+
+const cases = [
+  {
+    title: "Caso 1 — Motor não roda",
+    text: "O painel acende, mas o motor de arranque não roda. Qual é uma boa primeira verificação?",
+    options: [
+      "Substituir imediatamente o alternador",
+      "Verificar bateria, terminais e ligações principais",
+      "Substituir todas as velas",
+      "Trocar o filtro de ar"
+    ],
+    answer: 1,
+    explanation: "Começa pela bateria e pelas ligações. Depois investiga o circuito de comando e o motor de arranque conforme os resultados."
+  },
+  {
+    title: "Caso 2 — Farol apagado",
+    text: "Um farol não acende, mas o outro funciona. O que deves verificar?",
+    options: [
+      "A caixa de velocidades",
+      "A pressão dos pneus",
+      "A lâmpada, o conector e o circuito de alimentação",
+      "O nível do óleo"
+    ],
+    answer: 2,
+    explanation: "Uma lâmpada defeituosa, um conector danificado ou uma falha local de alimentação podem explicar o problema."
+  },
+  {
+    title: "Caso 3 — Fusível volta a fundir",
+    text: "O fusível correcto funde repetidamente. Qual é a atitude segura?",
+    options: [
+      "Instalar um fusível de maior amperagem",
+      "Unir os terminais com arame",
+      "Investigar curto-circuito ou sobrecarga",
+      "Retirar todos os fusíveis"
+    ],
+    answer: 2,
+    explanation: "Um fusível que volta a fundir pode indicar curto-circuito ou sobrecarga. Nunca aumentes a amperagem para contornar o problema."
+  },
+  {
+    title: "Caso 4 — Bateria descarregada",
+    text: "A bateria descarrega frequentemente. O que deves testar?",
+    options: [
+      "O sistema de carregamento e o estado da bateria",
+      "A buzina",
+      "O líquido de refrigeração",
+      "A pressão dos pneus"
+    ],
+    answer: 0,
+    explanation: "Testa a bateria e o sistema de carregamento. Se necessário, verifica também se existe consumo parasita com o veículo desligado."
+  },
+  {
+    title: "Caso 5 — Vidro eléctrico parado",
+    text: "Um vidro eléctrico não responde ao comando. Qual é a abordagem correcta?",
+    options: [
+      "Substituir o alternador",
+      "Verificar alimentação, protecção, comando, cablagem e motor",
+      "Substituir sempre a bateria",
+      "Eliminar a protecção"
+    ],
+    answer: 1,
+    explanation: "Segue o circuito e confirma onde a alimentação ou o comando deixa de funcionar."
+  }
+];
+
+function renderCase() {
+  const index = Number(state.caseIndex) % cases.length;
+  const c = cases[index];
+  const answered = state.caseAnswered.includes(index);
+
+  let html = `
+    <h3>${c.title}</h3>
+    <p class="muted">${c.text}</p>
+  `;
+
+  c.options.forEach((option, i) => {
+    html += `
+      <button class="option"
+        ${answered ? "disabled" : ""}
+        onclick="answerCase(${i})">${option}</button>
+    `;
+  });
+
+  html += `<div id="caseFeedback"></div>`;
+  $("caseArea").innerHTML = html;
+
+  if (answered) {
+    $("caseFeedback").innerHTML = `
+      <div class="feedback good">
+        Este caso já foi respondido nesta conta.<br>
+        <b>Explicação:</b> ${c.explanation}
+      </div>
+    `;
+  }
+}
+
+function answerCase(answer) {
+  const index = Number(state.caseIndex) % cases.length;
+
+  if (state.caseAnswered.includes(index)) return;
+
+  const c = cases[index];
+  const correct = answer === c.answer;
+
+  state.caseAnswered.push(index);
+
+  if (correct) {
+    addPoints(10, "case-" + index);
+  }
+
+  saveCurrentState();
+  renderCase();
+  updateStats();
+
+  $("caseFeedback").innerHTML = `
+    <div class="feedback ${correct ? "good" : "bad"}">
+      <b>${correct ? "Correcto!" : "Resposta incorrecta."}</b><br>
+      ${c.explanation}
+    </div>
+  `;
+}
+
+function nextCase() {
+  state.caseIndex = (Number(state.caseIndex) + 1) % cases.length;
+  saveCurrentState();
+  renderCase();
+}
+
+/* =====================================================
+   EXERCÍCIOS DE CIRCUITOS
+===================================================== */
+
+const circuits = [
+  {
+    title: "Circuito 1 — Lâmpada não acende",
+    text: "O fusível está intacto, mas a lâmpada não acende. Qual é uma boa sequência de diagnóstico?",
+    options: [
+      "Substituir imediatamente a bateria",
+      "Confirmar alimentação, comando, continuidade e massa conforme o esquema",
+      "Instalar um fusível mais forte",
+      "Desligar a massa permanentemente"
+    ],
+    answer: 1,
+    explanation: "Segue o circuito sistematicamente e mede nos pontos adequados para descobrir onde se perde a alimentação ou o retorno."
+  },
+  {
+    title: "Circuito 2 — Queda de tensão",
+    text: "Uma ligação corroída provoca queda de tensão excessiva sob carga. O que deves fazer?",
+    options: [
+      "Reparar correctamente a ligação e voltar a testar",
+      "Instalar um fusível maior",
+      "Ignorar a queda de tensão",
+      "Ligar um cabo sem confirmar o esquema"
+    ],
+    answer: 0,
+    explanation: "Uma ligação defeituosa pode gerar resistência e aquecimento. Repara-a correctamente e confirma o resultado com medições."
+  },
+  {
+    title: "Circuito 3 — Motor eléctrico parado",
+    text: "Um motor eléctrico não funciona. Qual é uma boa estratégia geral?",
+    options: [
+      "Substituir o motor sem medições",
+      "Verificar alimentação, massa, comando e condição do motor",
+      "Retirar todas as protecções",
+      "Ligar directamente à bateria sem conhecer as especificações"
+    ],
+    answer: 1,
+    explanation: "Confirma o circuito antes de condenar o motor. Uma ligação directa incorrecta pode causar danos."
+  },
+  {
+    title: "Circuito 4 — Curto-circuito suspeito",
+    text: "Existe suspeita de curto-circuito num circuito protegido por fusível. O que deves evitar?",
+    options: [
+      "Consultar o esquema",
+      "Isolar a alimentação com segurança antes da inspecção",
+      "Substituir o fusível por um de amperagem superior",
+      "Inspeccionar a cablagem"
+    ],
+    answer: 2,
+    explanation: "Um fusível de maior amperagem pode permitir que a cablagem sobreaqueça. Investiga a causa e utiliza a especificação correcta."
+  }
+];
+
+function renderCircuit() {
+  const index = Number(state.circuitIndex) % circuits.length;
+  const c = circuits[index];
+  const answered = state.circuitAnswered.includes(index);
+
+  let html = `
+    <h3>${c.title}</h3>
+    <p class="muted">${c.text}</p>
+  `;
+
+  c.options.forEach((option, i) => {
+    html += `
+      <button class="option"
+        ${answered ? "disabled" : ""}
+        onclick="answerCircuit(${i})">${option}</button>
+    `;
+  });
+
+  html += `<div id="circuitFeedback"></div>`;
+  $("circuitArea").innerHTML = html;
+
+  if (answered) {
+    $("circuitFeedback").innerHTML = `
+      <div class="feedback good">
+        Este circuito já foi respondido nesta conta.<br>
+        <b>Explicação:</b> ${c.explanation}
+      </div>
+    `;
+  }
+}
+
+function answerCircuit(answer) {
+  const index = Number(state.circuitIndex) % circuits.length;
+
+  if (state.circuitAnswered.includes(index)) return;
+
+  const c = circuits[index];
+  const correct = answer === c.answer;
+
+  state.circuitAnswered.push(index);
+
+  if (correct) {
+    addPoints(10, "circuit-" + index);
+  }
+
+  saveCurrentState();
+  renderCircuit();
+  updateStats();
+
+  $("circuitFeedback").innerHTML = `
+    <div class="feedback ${correct ? "good" : "bad"}">
+      <b>${correct ? "Muito bem!" : "Resposta incorrecta."}</b><br>
+      ${c.explanation}
+    </div>
+  `;
+}
+
+function nextCircuit() {
+  state.circuitIndex =
+    (Number(state.circuitIndex) + 1) % circuits.length;
+
+  saveCurrentState();
+  renderCircuit();
+}
+
+/* =====================================================
+   TESTES
+===================================================== */
+
+const questions = [
+  {
+    q: "Qual é a unidade de medida da tensão eléctrica?",
+    options: ["Ampere", "Volt", "Ohm", "Watt"],
+    answer: 1,
+    explanation: "A tensão eléctrica é medida em volts (V)."
+  },
+  {
+    q: "Qual é a unidade de medida da resistência?",
+    options: ["Ohm", "Volt", "Ampere", "Litro"],
+    answer: 0,
+    explanation: "A resistência eléctrica é medida em ohms (Ω)."
+  },
+  {
+    q: "Que instrumento pode medir tensão eléctrica?",
+    options: ["Termómetro", "Multímetro configurado para tensão", "Manómetro", "Régua"],
+    answer: 1,
+    explanation: "O multímetro pode medir tensão quando está configurado e ligado correctamente."
+  },
+  {
+    q: "O que deves fazer antes de medir resistência num circuito?",
+    options: [
+      "Manter o circuito energizado",
+      "Desligar a alimentação e isolar o circuito conforme necessário",
+      "Instalar um fusível maior",
+      "Medir resistência directamente numa bateria energizada"
+    ],
+    answer: 1,
+    explanation: "A resistência deve ser medida com o circuito desenergizado e isolado conforme necessário."
+  },
+  {
+    q: "Qual é a função principal de um fusível?",
+    options: [
+      "Aumentar a tensão",
+      "Proteger contra determinadas sobrecorrentes",
+      "Arrefecer o motor",
+      "Carregar os pneus"
+    ],
+    answer: 1,
+    explanation: "O fusível interrompe o circuito quando a corrente ultrapassa o limite previsto."
+  },
+  {
+    q: "O que pode provocar resistência indesejada numa ligação?",
+    options: [
+      "Corrosão ou mau contacto",
+      "Uma lâmpada limpa",
+      "Um pneu novo",
+      "Um filtro limpo"
+    ],
+    answer: 0,
+    explanation: "Corrosão e ligações mal apertadas podem aumentar a resistência e provocar quedas de tensão."
+  },
+  {
+    q: "O que deves fazer se um fusível fundir repetidamente?",
+    options: [
+      "Colocar um fusível mais forte",
+      "Investigar a causa da sobrecorrente",
+      "Eliminar o fusível",
+      "Unir os terminais com metal"
+    ],
+    answer: 1,
+    explanation: "Investiga a causa da sobrecorrente em vez de anular a protecção."
+  },
+  {
+    q: "Qual é a relação expressa pela Lei de Ohm?",
+    options: ["V = I × R", "V = I + R", "R = V × I", "I = V × R"],
+    answer: 0,
+    explanation: "A Lei de Ohm estabelece V = I × R."
+  }
+];
+
+function renderQuiz() {
+  const index = Number(state.quizIndex) % questions.length;
+  const q = questions[index];
+  const previous = state.quizAnswered[index];
+
+  let html = `
+    <h3>Pergunta ${index + 1} de ${questions.length}</h3>
+    <p>${q.q}</p>
+  `;
+
+  q.options.forEach((option, i) => {
+    html += `
+      <button class="option"
+        ${previous ? "disabled" : ""}
+        onclick="answerQuiz(${i})">${option}</button>
+    `;
+  });
+
+  html += `<div id="quizFeedback"></div>`;
+  $("quizArea").innerHTML = html;
+
+  if (previous) {
+    $("quizFeedback").innerHTML = `
+      <div class="feedback ${previous.correct ? "good" : "bad"}">
+        <b>${previous.correct ? "Resposta correcta!" : "Resposta incorrecta."}</b><br>
+        ${q.explanation}
+      </div>
+    `;
+  }
+}
+
+function answerQuiz(answer) {
+  const index = Number(state.quizIndex) % questions.length;
+
+  if (state.quizAnswered[index]) return;
+
+  const q = questions[index];
+  const correct = answer === q.answer;
+
+  state.quizAnswered[index] = {
+    answer: answer,
+    correct: correct
+  };
+
+  if (correct) {
+    state.correctAnswers++;
+    addPoints(5, "quiz-" + index);
+  }
+
+  saveCurrentState();
+  renderQuiz();
+  updateStats();
+
+  $("quizFeedback").innerHTML = `
+    <div class="feedback ${correct ? "good" : "bad"}">
+      <b>${correct ? "Resposta correcta!" : "Resposta incorrecta."}</b><br>
+      ${q.explanation}
+    </div>
+  `;
+}
+
+function nextQuiz() {
+  state.quizIndex =
+    (Number(state.quizIndex) + 1) % questions.length;
+
+  saveCurrentState();
+  renderQuiz();
+}
+
+/* =====================================================
+   PONTOS E PROGRESSO
+===================================================== */
+
+function addPoints(amount, id) {
+  if (state.completedIds.includes(id)) return;
+
+  state.completedIds.push(id);
+  state.points += amount;
+
+  saveCurrentState();
+  updateStats();
+}
+
+function updateStats() {
+  if (!state) return;
+
+  $("points").textContent = state.points;
+  $("completed").textContent = state.completedIds.length;
+  $("correct").textContent = state.correctAnswers;
+
+  const total = cases.length + circuits.length + questions.length;
+  const completed = state.completedIds.length;
+
+  const percent = Math.min(100, Math.round((completed / total) * 100));
+
+  $("progressText").textContent =
+    completed + " de " + total +
+    " actividades pontuadas concluídas (" + percent + "%).";
+
+  $("progressFill").style.width = percent + "%";
+}
+
+/* =====================================================
+   INICIALIZAÇÃO DA APLICAÇÃO
+===================================================== */
+
+function initialiseApplication() {
+  const users = readUsers();
+
+  if (!users[currentUser]) {
+    logout();
+    return;
+  }
+
+  state = normaliseState(users[currentUser].state);
+else {
+  
+}
+  const brandSelect = $("brand");
+  brandSelect.innerHTML = "";
+
+  Object.keys(vehicleModels).forEach(brand => {
+    const option = document.createElement("option");
+    option.value = brand;
+    option.textContent = brand;
+    brandSelect.appendChild(option);
+  });
+
+  updateModels();
+  drawVehicle();
+
+  renderCase();
+  renderCircuit();
+  renderQuiz();
+
+  updateStats();
+  saveCurrentState();
+
+  showPage("home", document.querySelector("nav button"));
+}
+
+/* =====================================================
+   PROTECÇÃO CONTRA PERDA ACIDENTAL DE PROGRESSO
+===================================================== */
+
+/*
+  Guarda o progresso sempre que o documento fica oculto
+  e quando o utilizador sai da página.
+*/
+document.addEventListener("visibilitychange", function() {
+  if (document.visibilityState === "hidden") {
+    saveCurrentState();
+  }
+});
+
+window.addEventListener("pagehide", function() {
+  saveCurrentState();
+});
+
+/*
+  Arranque: se existir uma sessão válida, tenta restaurá-la.
+  Caso contrário, mostra o login.
+*/
+restoreSession();
+
+</script>
+
 </body>
 </html>
